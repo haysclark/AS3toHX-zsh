@@ -1,0 +1,24 @@
+#compdef as3tohx
+# ------------------------------------------------------------------------------
+# Description
+# -----------
+#
+#  Completion script for AS3toHX (https://github.com/haxe-community/AS3toHX).
+#
+#  Source: https://github.com/haysclark/AS3toHX-zsh/blob/master/_as3tohx
+#
+# ------------------------------------------------------------------------------
+# Authors
+# -------
+#
+#  * Hays Clark (https://github.com/haysclark)
+#
+# ------------------------------------------------------------------------------
+
+_arguments -C \
+  '1: :_path_files -/' \
+  '2: :_path_files -/' \
+  '(-v)-v[verbose mode]' \
+  '(-h)-h[shows list of available commands]'
+
+return 0
