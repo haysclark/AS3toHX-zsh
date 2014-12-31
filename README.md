@@ -24,3 +24,7 @@ Re-Source your `~/.zshrc` in every open terminal (or just restart them):
 ```bash
 $ source ~/.zshrc
 ```
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/haysclark/as3tohx-zsh/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
